@@ -13,5 +13,5 @@
 
 .DS_Store
 .gitignore
-.LICENCE
-.README.md
+LICENCE
+README.md
