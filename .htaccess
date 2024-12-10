@@ -1,0 +1,9 @@
+# -Gérer l'encodae des caractères
+AddDefaultCharset utf-8
+
+# Empêcher le listage des dossiers
+Options All -Indexes
+
+# -Gestion des erreurs
+ErrorDocument 403 https://webetu.iutnc.univ-lorraine.fr/~e96347u/sae105-moteurdejeu/erreur403.html
+ErrorDocument 404 https://webetu.iutnc.univ-lorraine.fr/~e96347u/sae105-moteurdejeu/erreur404.html
