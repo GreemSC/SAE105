@@ -5,6 +5,10 @@ body {
     font-weight: 400;
 }
 
+#wrap{
+    width: 1920;
+}
+
 h1.construction {
     width: 300px;
     margin: 100px auto;
@@ -56,4 +60,21 @@ nav#navigation a {
         
 nav#navigation li:hover a {
     color : #63D2FF;
+}
+
+footer {
+    position: fixed ;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+
+    background-color: #181D27;
+}
+
+ul{
+    padding: 0px;
 }
