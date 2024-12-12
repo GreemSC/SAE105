@@ -5,7 +5,7 @@
         "tarifs": "Gratuit pour les revenus inférieurs à 200 000$/an, plans payants à partir de 399$/an",
         "opensource": false,
         "description": "Unity est un moteur de jeu multiplateforme permettant de créer des jeux en 2D, 3D et en réalité augmentée/virtuelle. Il est largement utilisé dans l'industrie grâce à sa facilité d'utilisation et sa vaste communauté.",
-        "languagedeprog": "C#, JavaScript (UnityScript, obsolète)",
+        "langageDeProg": "C# (UnityScript, obsolète)",
         "avantages": [
             {
                 "nom": "Multiplateforme",
@@ -73,7 +73,7 @@
         "tarifs": "Gratuit jusqu'à 1 million de revenus, 5% de redevance ensuite",
         "opensource": true,
         "description": "Unreal Engine est un moteur de jeu puissant et très utilisé dans l'industrie pour les jeux AAA et les projets haute qualité. Il est particulièrement performant pour le rendu 3D réaliste.",
-        "languagedeprog": "C++, Blueprints (langage visuel)",
+        "langageDeProg": "C++, Blueprints (langage visuel)",
         "avantages": [
             {
                 "nom": "Rendu 3D de haute qualité",
@@ -129,7 +129,7 @@
         "tarifs": "Gratuit (open source sous licence MIT)",
         "opensource": true,
         "description": "Godot est un moteur de jeu gratuit et open source qui prend en charge le développement 2D et 3D. Il est apprécié pour sa légèreté et son approche modulaire.",
-        "languagedeprog": "GDScript, C#, C++, VisualScript",
+        "langageDeProg": "GDScript, C#, C++, VisualScript",
         "avantages": [
             {
                 "nom": "Gratuit et open source",
@@ -181,7 +181,7 @@
         "tarifs": "Gratuit avec redevance de 5% sur les revenus générés au-delà de 5 000$",
         "opensource": false,
         "description": "CryEngine est un moteur de jeu axé sur le rendu graphique réaliste et souvent utilisé pour des jeux AAA nécessitant des environnements détaillés.",
-        "languagedeprog": "C++, C#, Lua",
+        "langageDeProg": "C++, C#, Lua",
         "avantages": [
             {
                 "nom": "Rendu graphique avancé",
@@ -233,7 +233,7 @@
         "tarifs": "Entre 50$ et 80$ selon la version",
         "opensource": false,
         "description": "RPG Maker est un moteur conçu pour créer facilement des jeux de rôle 2D avec un minimum de connaissances en programmation.",
-        "languagedeprog": "Ruby (anciennes versions), JavaScript (versions récentes)",
+        "langageDeProg": "Ruby (anciennes versions), JavaScript (versions récentes)",
         "avantages": [
             {
                 "nom": "Facilité d'utilisation",
@@ -289,7 +289,7 @@
         "tarifs": "Gratuit",
         "opensource": true,
         "description": "Love2D est un moteur de jeu léger et open source axé sur le développement de jeux en 2D à l'aide de Lua.",
-        "languagedeprog": "Lua",
+        "langageDeProg": "Lua",
         "avantages": [
             {
                 "nom": "Facilité d'apprentissage",
@@ -341,7 +341,7 @@
         "tarifs": "Non disponible pour un usage externe (propriétaire)",
         "opensource": false,
         "description": "RAGE est un moteur propriétaire utilisé par Rockstar Games pour développer des jeux en monde ouvert, avec un accent sur le réalisme et les environnements interactifs.",
-        "languagedeprog": "C++, script propriétaire",
+        "langageDeProg": "C++, script propriétaire",
         "avantages": [
             {
                 "nom": "Optimisé pour les mondes ouverts",
@@ -393,7 +393,7 @@
         "tarifs": "Non disponible pour un usage externe (propriétaire)",
         "opensource": false,
         "description": "Ubisoft Anvil est le moteur utilisé pour développer des jeux AAA en monde ouvert, avec un accent sur les environnements immersifs et les mécaniques complexes.",
-        "languagedeprog": "C++, script propriétaire",
+        "langageDeProg": "C++, script propriétaire",
         "avantages": [
             {
                 "nom": "Excellente gestion des mondes ouverts",
@@ -445,7 +445,7 @@
         "tarifs": "Non disponible pour un usage externe (propriétaire)",
         "opensource": false,
         "description": "REDengine est le moteur utilisé par CD Projekt RED pour créer des RPG immersifs avec des environnements détaillés et une narration riche.",
-        "languagedeprog": "C++, scripts propriétaires",
+        "langageDeProg": "C++, scripts propriétaires",
         "avantages": [
             {
                 "nom": "Narration avancée",
@@ -501,7 +501,7 @@
         "tarifs": "Gratuit (version limitée), payant à partir de 15$/mois",
         "opensource": false,
         "description": "Construct est un moteur de jeu visuel permettant aux développeurs de créer des jeux 2D sans écrire de code, grâce à un système basé sur des événements.",
-        "languagedeprog": "Aucun (système visuel basé sur des événements), JavaScript pour des fonctionnalités avancées",
+        "langageDeProg": "Aucun (système visuel basé sur des événements), JavaScript pour des fonctionnalités avancées",
         "avantages": [
             {
                 "nom": "Facilité d'utilisation",
@@ -553,7 +553,7 @@
         "tarifs": "Gratuit (version limitée), payant à partir de 39$/an",
         "opensource": false,
         "description": "GameMaker Studio est un moteur de jeu 2D polyvalent, largement utilisé pour les jeux indépendants grâce à sa facilité d'utilisation et sa flexibilité.",
-        "languagedeprog": "GML (GameMaker Language), système visuel pour les non-programmeurs",
+        "langageDeProg": "GML (GameMaker Language), système visuel pour les non-programmeurs",
         "avantages": [
             {
                 "nom": "Accessible aux débutants",

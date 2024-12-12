@@ -5,7 +5,7 @@
         "tarifs": "Gratuit pour la version 'Personal' et 170€/mois pour la version 'Pro'.",
         "opensource": false,
         "description": "Unity est un moteur de jeu multiplateforme (smartphone, ordinateur, consoles de jeux vidéo et Web) développé par Unity Technologies. Il a la particularité de proposer une licence gratuite dite « Personal » avec quelques limitations de technologie avancée au niveau de l'éditeur, mais sans limitation au niveau du moteur. Il est l'un des deux moteurs les plus répandus dans l'industrie du jeu vidéo, aussi bien pour les grands studios que pour les indépendants. Par rapport à son concurrent principal, Unreal Engine, Unity est considéré comme ayant une interface utilisateur plus facile d'accès et un service plus approprié pour les créations indépendantes.",
-        "languagedeprog": "C#",
+        "langageDeProg": "C#",
         "avantages": [
             {
                 "nom": "Facile d'accès",
@@ -73,7 +73,7 @@
         "tarifs": "Gratuit en dessous de 1 million de dollars (USD) de revenu, puis 5% sur tous les revenu brut de l'application, après 12 mois et si ce n'est pas un jeu ou une application pour des utilisateurs finaux, 2067,60€ par poste et par an",
         "opensource": false,
         "description": "L'Unreal Engine est programmé en C++ et dans un langage de script, baptisé « UnrealScript », utilisé pour 90 % du code lié au gameplay d’Unreal Tournament18. Le moteur utilise une conception orientée objet, ce qui lui permet d'être extrêmement modulaire. Les interfaces des différentes sous-parties du code étant clairement définies, les développeurs peuvent travailler sur l'une d'entre elles sans que cela n'affecte le reste du jeu. Cela a également permis d'isoler le code lié aux plates-formes dans des bibliothèques logicielles séparées, facilitant le portage du jeu sur d'autres plates-formes.",
-        "languagedeprog": "C++, Unreal Script ou Programmation visuel",
+        "langageDeProg": "C++, Unreal Script ou Programmation visuel",
         "avantages": [
             {
                 "nom": "Qualité graphique exceptionnelle",
@@ -136,7 +136,7 @@
         "tarifs": "",
         "opensource": false,
         "description": "",
-        "languagedeprog": "",
+        "langageDeProg": "",
         "avantages": [
             {
                 "nom": "",
