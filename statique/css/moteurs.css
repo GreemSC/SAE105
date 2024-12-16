@@ -84,6 +84,7 @@ article.moteur {
     background-color: #181D27;
     margin: 15px;
     color: #fff;
+    position: relative;
 }
 
 article.moteur h2 {
@@ -97,9 +98,66 @@ article.moteur p {
     padding: 0px 20px;
 }
 
-article.moteur img {
-    width: 30px;
-    height: 30px;
-    display: block;
-    margin: auto;
+article.moteur p.bottomtext{
+    position: absolute;
+    margin-left: auto;
+    padding: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+article.moteur a {
+    text-decoration: none;
+    color: #fff;
+}
+
+article.moteur a:hover {
+    color: #63D2FF;
+}
+
+div.windows {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+div.windows:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+div.windows > div {
+    width: 700px;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 20px 15px 20px;
+    border-radius: 8px;
+    background: #181D27;
+    color: #fff;
+}
+
+a.close {
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: 14px;
+    text-align: center;
+    top: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+a.close:hover {
+    color: #63D2FF
 }

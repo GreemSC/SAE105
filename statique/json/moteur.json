@@ -4,7 +4,7 @@
         "entreprise": "Unity Technologies",
         "tarifs": "Gratuit pour les revenus inférieurs à 200 000$/an, plans payants à partir de 399$/an",
         "opensource": false,
-        "description": "Unity est un moteur de jeu multiplateforme permettant de créer des jeux en 2D, 3D et en réalité augmentée/virtuelle. Il est largement utilisé dans l'industrie grâce à sa facilité d'utilisation et sa vaste communauté.",
+        "description": "Unity est un moteur de jeu multiplateforme permettant de créer des jeux en 2D, 3D et en réalité augmentée/virtuelle.",
         "langageDeProg": "C# (UnityScript, obsolète)",
         "avantages": [
             {
