@@ -1,12 +1,14 @@
 body {
     margin: 0px;
+    padding-bottom: 0px;
     background-color: #aaaaaa;
     font-family: "narkiss-yair-variable", sans-serif;
     font-weight: 400;
 }
 
-#wrap{
-    width: 1920;
+#wrap {
+    width: 1280px;
+    margin: auto;
 }
 
 h1.construction {
@@ -17,11 +19,11 @@ h1.construction {
 nav#navigation {
     background-color: #181D27;
     font-size: 1.25em;
-    
+
     /* Les 2 enfants UL seront positionnés en flex, premier "à gauche", le second "à droite" */
-    display : flex ;
-    justify-content : space-between ;
-    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     line-height: 60px;
 
@@ -32,20 +34,20 @@ nav#navigation {
 }
 
 nav#navigation ul {
-    margin : 0px;
-    padding : 0px;
+    margin: 0px;
+    padding: 0px;
 
-    list-style-type: none ;
+    list-style-type: none;
 
     /* Encore du flex pour les li de chaque ul */
-    
+
     display: flex;
     flex-wrap: wrap;
 }
 
 nav#navigation li {
-    padding-left : 20px ;
-    padding-right : 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav#navigation ul.items {
@@ -54,19 +56,46 @@ nav#navigation ul.items {
 
 
 nav#navigation a {
-    text-decoration : none ;
-    color : #fff ;
+    text-decoration: none;
+    color: #fff;
 }
-        
+
 nav#navigation li:hover a {
-    color : #63D2FF;
+    color: #63D2FF;
+}
+
+#presentation {
+    margin: auto;
+    width: 1000px;
+    border-radius: 20px;
+
+    background-color: #181D27;
+    color: #fff;
+}
+
+div.ligne{
+    display: flex;  
+    flex-direction: row ; /* Aligne les éléments enfants horizontalement */
+    align-items:center ; /* Centre verticalement dans le conteneur. */
+}
+
+
+
+#presentation img{
+   /* aspect-ratio: ; */
+}
+
+#presentation h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#presentation p{
+    width: 500px;
 }
 
 footer {
-    position: fixed ;
     width: 100%;
-    bottom: 0px;
-    left: 0px;
 
     line-height: 2rem;
     text-align: center;
@@ -75,6 +104,15 @@ footer {
     background-color: #181D27;
 }
 
-ul{
+footer ul {
     padding: 0px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li:hover a {
+    color: #63D2FF;
 }
