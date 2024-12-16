@@ -1,6 +1,6 @@
 [
     {
-        "nom": "Ori and the Blind Forest",
+        "nomJeu": "Ori and the Blind Forest",
         "moteur": "Unity",
         "prix": 19.99,
         "plateforme": [
@@ -9,22 +9,22 @@
             "Nintendo Switch",
             "Xbox One"
         ],
-        "avisutilisateur": [
+        "avisUtilisateur": [
             {
-                "nom": "jvc",
-                "note": "17.5"
+                "nomSite": "jvc",
+                "noteSite": "17.5"
             },
             {
-                "nom": "steam",
-                "note": "Extrêmement positives"
+                "nomSite": "steam",
+                "noteSite": "Extrêmement positives"
             },
             {
-                "nom": "metacritic",
-                "note": 8.2
+                "nomSite": "metacritic",
+                "noteSite": 8.2
             },
             {
-                "nom": "GOG",
-                "note": "4.5"
+                "nomSite": "GOG",
+                "noteSite": "4.5"
             }
         ],
         "tag": [
@@ -87,25 +87,25 @@
         ]
     },
     {
-        "nom": "The Forest",
+        "nomJeu": "The Forest",
         "moteur": "Unity",
         "prix": 16.79,
         "plateforme": [
             "steam",
             "Playstation 4"
         ],
-        "avisutilisateur": [
+        "avisUtilisateur": [
             {
-                "nom": "jvc",
-                "note": "15.9"
+                "nomSite": "jvc",
+                "noteSite": "15.9"
             },
             {
-                "nom": "steam",
-                "note": "Extrêmement positives"
+                "nomSite": "steam",
+                "noteSite": "Extrêmement positives"
             },
             {
-                "nom": "metacritic",
-                "note": "7.5"
+                "nomSite": "metacritic",
+                "noteSite": "7.5"
             }
         ],
         "tag": [
@@ -167,8 +167,9 @@
                 "soustitres": true
             }
         ]
-    },{
-        "nom": "Fortnite",
+    },
+    {
+        "nomJeu": "Fortnite",
         "moteur": "Unreal Engine",
         "prix": 0,
         "plateforme": [
@@ -180,18 +181,18 @@
             "Playstation 5",
             "Xbox Series X/S"
         ],
-        "avisutilisateur": [
+        "avisUtilisateur": [
             {
-                "nom": "jvc",
-                "note": "17.5"
+                "nomSite": "jvc",
+                "noteSite": "17.5"
             },
             {
-                "nom": "steam",
-                "note": "Globalement positif"
+                "nomSite": "steam",
+                "noteSite": "Globalement positif"
             },
             {
-                "nom": "metacritic",
-                "note": "81"
+                "nomSite": "metacritic",
+                "noteSite": "81"
             }
         ],
         "tag": [
@@ -257,7 +258,7 @@
         ]
     },
     {
-        "nom": "BioShock 2",
+        "nomJeu": "BioShock 2",
         "moteur": "Unreal Engine 2.5",
         "prix": 19.99,
         "plateforme": [
@@ -265,18 +266,18 @@
             "Playstation 3",
             "Xbox 360"
         ],
-        "avisutilisateur": [
+        "avisUtilisateur": [
             {
-                "nom": "jvc",
-                "note": "16.5"
+                "nomSite": "jvc",
+                "noteSite": "16.5"
             },
             {
-                "nom": "steam",
-                "note": "Très positives"
+                "nomSite": "steam",
+                "noteSite": "Très positives"
             },
             {
-                "nom": "metacritic",
-                "note": "83"
+                "nomSite": "metacritic",
+                "noteSite": "83"
             }
         ],
         "tag": [
