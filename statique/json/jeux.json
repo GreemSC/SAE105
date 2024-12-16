@@ -1,411 +1,6 @@
 [
     {
-        "nom": "Counter-Strike 2",
-        "moteur": "Source 2",
-        "prix": 0,
-        "plateforme": [
-            "steam"
-        ],
-        "avisutilisateur": [
-            {
-                "nom": "jvc",
-                "note": 9.1
-            },
-            {
-                "nom": "steam",
-                "note": "Très positives"
-            },
-            {
-                "nom": "metacritic",
-                "note": 4.9
-            }
-        ],
-        "tag": [
-            "FPS",
-            "Multijoueur",
-            "Compétitif",
-            "JcJ"
-        ],
-        "description": "Counter-Strike, c'est l'expérience compétitive par excellence qui réunit des millions de personnes depuis plus de vingt ans. L'heure est venue d'écrire le prochain chapitre de l'histoire de Counter-Strike.",
-        "developpeur": "Valve",
-        "editeur": "Valve",
-        "dlc": true,
-        "langue": [
-            {
-                "nom": "Français",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Tchèque",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Danois",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Néerlandais",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Anglais",
-                "interface": true,
-                "audio": true,
-                "soustitres": false
-            },
-            {
-                "nom": "Finnois",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Allemand",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Hongrois",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Italien",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Japonais",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Coréen",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Norvégien",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Polonais",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Portugais du Portugal",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Portugais du Brésil",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Roumain",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Russe",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Chinois simplifié",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Espagnol - Espagne",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Suédois",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Thaï",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Chinois traditionnel",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Turc",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Bulgare",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Ukrainien",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Grec",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Espagnol - Amérique latine",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Vietnamien",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            },
-            {
-                "nom": "Indonésien",
-                "interface": true,
-                "audio": false,
-                "soustitres": false
-            }
-        ]
-    },
-    {
-        "nom": "Portal 2",
-        "moteur": "Source 2",
-        "prix": 9.75,
-        "plateforme": [
-            "steam"
-        ],
-        "avisutilisateur": [
-            {
-                "nom": "jvc",
-                "note": 18.5
-            },
-            {
-                "nom": "steam",
-                "note": "Extrêmement positives"
-            },
-            {
-                "nom": "metacritic",
-                "note": 8.8
-            }
-        ],
-        "tag": [
-            "Plateforme",
-            "Casse-tête",
-            "1re personne",
-            "Humour noir",
-            "Multijoueur"
-        ],
-        "description": "L'« initiative de tests perpétuels » a été étendue pour vous permettre de concevoir des casse-têtes coopératifs pour vous et vos contacts !",
-        "developpeur": "Valve",
-        "editeur": "Valve",
-        "dlc": false,
-        "langue": [
-            {
-                "nom": "Français",
-                "interface": true,
-                "audio": true,
-                "soustitres": true
-            },
-            {
-                "nom": "Anglais",
-                "interface": true,
-                "audio": true,
-                "soustitres": true
-            },
-            {
-                "nom": "Allemand",
-                "interface": true,
-                "audio": true,
-                "soustitres": true
-            },
-            {
-                "nom": "Espagnol - Espagne",
-                "interface": true,
-                "audio": true,
-                "soustitres": true
-            },
-            {
-                "nom": "Tchèque",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Danois",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Néerlandais",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Finnois",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Hongrois",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Italien",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Japonais",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Coréen",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Norvégien",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Polonais",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Portugais du Portugal",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Roumain",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Russe",
-                "interface": true,
-                "audio": true,
-                "soustitres": true
-            },
-            {
-                "nom": "Chinois simplifié",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Suédois",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Thaï",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Chinois traditionnel",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Turc",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Bulgare",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Grec",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Portugais du Brésil",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Espagnol - Amérique latine",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            },
-            {
-                "nom": "Ukrainien",
-                "interface": true,
-                "audio": false,
-                "soustitres": true
-            }
-        ]
-    },
-    {
-        "nom": "Ori and the Blind Forest",
+        "nomJeu": "Ori and the Blind Forest",
         "moteur": "Unity",
         "prix": 19.99,
         "plateforme": [
@@ -414,22 +9,22 @@
             "Nintendo Switch",
             "Xbox One"
         ],
-        "avisutilisateur": [
+        "avisUtilisateur": [
             {
-                "nom": "jvc",
-                "note": 17.5
+                "nomSite": "jvc",
+                "noteSite": "17.5"
             },
             {
-                "nom": "steam",
-                "note": "Extrêmement positives"
+                "nomSite": "steam",
+                "noteSite": "Extrêmement positives"
             },
             {
-                "nom": "metacritic",
-                "note": 8.2
+                "nomSite": "metacritic",
+                "noteSite": 8.2
             },
             {
-                "nom": "GOG",
-                "note": 4.5
+                "nomSite": "GOG",
+                "noteSite": "4.5"
             }
         ],
         "tag": [
@@ -492,25 +87,25 @@
         ]
     },
     {
-        "nom": "The Forest",
+        "nomJeu": "The Forest",
         "moteur": "Unity",
         "prix": 16.79,
         "plateforme": [
             "steam",
             "Playstation 4"
         ],
-        "avisutilisateur": [
+        "avisUtilisateur": [
             {
-                "nom": "jvc",
-                "note": 15.9
+                "nomSite": "jvc",
+                "noteSite": "15.9"
             },
             {
-                "nom": "steam",
-                "note": "Extrêmement positives"
+                "nomSite": "steam",
+                "noteSite": "Extrêmement positives"
             },
             {
-                "nom": "metacritic",
-                "note": 7.5
+                "nomSite": "metacritic",
+                "noteSite": "7.5"
             }
         ],
         "tag": [
@@ -555,6 +150,174 @@
             },
             {
                 "nom": "Japonais",
+                "interface": true,
+                "audio": false,
+                "soustitres": true
+            },
+            {
+                "nom": "Russe",
+                "interface": true,
+                "audio": false,
+                "soustitres": true
+            },
+            {
+                "nom": "Portugais du Brésil",
+                "interface": true,
+                "audio": false,
+                "soustitres": true
+            }
+        ]
+    },
+    {
+        "nomJeu": "Fortnite",
+        "moteur": "Unreal Engine",
+        "prix": 0,
+        "plateforme": [
+            "PC",
+            "Playstation 4",
+            "Xbox One",
+            "Nintendo Switch",
+            "Mobile",
+            "Playstation 5",
+            "Xbox Series X/S"
+        ],
+        "avisUtilisateur": [
+            {
+                "nomSite": "jvc",
+                "noteSite": "17.5"
+            },
+            {
+                "nomSite": "steam",
+                "noteSite": "Globalement positif"
+            },
+            {
+                "nomSite": "metacritic",
+                "noteSite": "81"
+            }
+        ],
+        "tag": [
+            "Battle Royale",
+            "Multijoueur",
+            "Action",
+            "Survie",
+            "Stratégie"
+        ],
+        "description": "Fortnite est un jeu de battle royale gratuit où les joueurs s'affrontent dans un environnement vaste tout en construisant des structures pour se protéger et se défendre. Chaque partie est unique et l'objectif est de survivre jusqu'à la fin pour devenir le dernier joueur en vie.",
+        "developpeur": "Epic Games",
+        "editeur": "Epic Games",
+        "dlc": true,
+        "langue": [
+            {
+                "nom": "Français",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Anglais",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Allemand",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Espagnol - Espagne",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Italien",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Japonais",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Russe",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Portugais du Brésil",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            }
+        ]
+    },
+    {
+        "nomJeu": "BioShock 2",
+        "moteur": "Unreal Engine 2.5",
+        "prix": 19.99,
+        "plateforme": [
+            "PC",
+            "Playstation 3",
+            "Xbox 360"
+        ],
+        "avisUtilisateur": [
+            {
+                "nomSite": "jvc",
+                "noteSite": "16.5"
+            },
+            {
+                "nomSite": "steam",
+                "noteSite": "Très positives"
+            },
+            {
+                "nomSite": "metacritic",
+                "noteSite": "83"
+            }
+        ],
+        "tag": [
+            "FPS",
+            "Action",
+            "Aventure",
+            "Science-fiction",
+            "RPG"
+        ],
+        "description": "BioShock 2 est un jeu de tir à la première personne se déroulant dans la ville sous-marine de Rapture. Le joueur incarne un Big Daddy, une créature imposante, et explore les ruines de cette société dystopique tout en affrontant des ennemis et en résolvant des énigmes.",
+        "developpeur": "2K Marin",
+        "editeur": "2K Games",
+        "dlc": true,
+        "langue": [
+            {
+                "nom": "Français",
+                "interface": true,
+                "audio": false,
+                "soustitres": true
+            },
+            {
+                "nom": "Anglais",
+                "interface": true,
+                "audio": true,
+                "soustitres": true
+            },
+            {
+                "nom": "Allemand",
+                "interface": true,
+                "audio": false,
+                "soustitres": true
+            },
+            {
+                "nom": "Espagnol - Espagne",
+                "interface": true,
+                "audio": false,
+                "soustitres": true
+            },
+            {
+                "nom": "Italien",
                 "interface": true,
                 "audio": false,
                 "soustitres": true
