@@ -1,0 +1,201 @@
+[
+    {
+        "nom": "Unity",
+        "entrprise": "Unity Technologies",
+        "tarifs": "Gratuit pour la version 'Personal' et 170€/mois pour la version 'Pro'.",
+        "opensource": false,
+        "description": "Unity est un moteur de jeu multiplateforme (smartphone, ordinateur, consoles de jeux vidéo et Web) développé par Unity Technologies. Il a la particularité de proposer une licence gratuite dite « Personal » avec quelques limitations de technologie avancée au niveau de l'éditeur, mais sans limitation au niveau du moteur. Il est l'un des deux moteurs les plus répandus dans l'industrie du jeu vidéo, aussi bien pour les grands studios que pour les indépendants. Par rapport à son concurrent principal, Unreal Engine, Unity est considéré comme ayant une interface utilisateur plus facile d'accès et un service plus approprié pour les créations indépendantes.",
+        "langageDeProg": "C#",
+        "avantages": [
+            {
+                "nom": "Facile d'accès",
+                "description": "Il est assez facile de le télécharger, il n'y a pas beacoup de restriction au premier rabord"
+            },
+            {
+                "nom": "Communauté active",
+                "description": "Unity bénéficie d'une communauté active et nombreuse de développeurs, ce qui signifie que vous pouvez trouver facilement des ressources, des tutoriels et des exemples de code."
+            },
+            {
+                "nom": "Interface intutive",
+                "description": "Unity offre une interface utilisateur intuitive et facile à utiliser, même pour les développeurs débutants."
+            }
+        ],
+        "desavantages": [
+            {
+                "nom": "Le prix",
+                "description": "Unity coûte assez chère avec la nouvelle formule qu'ils ont mis en place."
+            },
+            {
+                "nom": "Problème de RAM",
+                "description": "Unity à tandance a consomme plus ram pour les jeux."
+            }
+        ],
+        "jeux": [
+            {
+                "nom": "Ori and the Blind Forest",
+                "description": ""
+            },
+            {
+                "auteur": "The Forest",
+                "description": ""
+            }
+        ],
+        "versions": [
+            {
+                "nom": "Unity 1",
+                "numero": 1
+            },
+            {
+                "nom": "Unity 2",
+                "numero": 2
+            },
+            {
+                "nom": "Unity 3",
+                "numero": 3
+            },
+            {
+                "nom": "Unity 4",
+                "numero": 4
+            },
+            {
+                "nom": "Unity 5",
+                "numero": 5
+            },
+            {
+                "nom": "Unity 6",
+                "numero": 6
+            }
+        ]
+    },
+    {
+        "nom": "Unreal Engine",
+        "entrprise": "Epic Games",
+        "tarifs": "Gratuit en dessous de 1 million de dollars (USD) de revenu, puis 5% sur tous les revenu brut de l'application, après 12 mois et si ce n'est pas un jeu ou une application pour des utilisateurs finaux, 2067,60€ par poste et par an",
+        "opensource": false,
+        "description": "L'Unreal Engine est programmé en C++ et dans un langage de script, baptisé « UnrealScript », utilisé pour 90 % du code lié au gameplay d’Unreal Tournament18. Le moteur utilise une conception orientée objet, ce qui lui permet d'être extrêmement modulaire. Les interfaces des différentes sous-parties du code étant clairement définies, les développeurs peuvent travailler sur l'une d'entre elles sans que cela n'affecte le reste du jeu. Cela a également permis d'isoler le code lié aux plates-formes dans des bibliothèques logicielles séparées, facilitant le portage du jeu sur d'autres plates-formes.",
+        "langageDeProg": "C++, Unreal Script ou Programmation visuel",
+        "avantages": [
+            {
+                "nom": "Qualité graphique exceptionnelle",
+                "description": "Unreal Engine est connu pour ses graphismes de haute qualité, avec des rendus photoréalistes et des effets de lumière et de mouvement réalistes."
+            },
+            {
+                "nom": "Blueprints",
+                "description": "Le système de Blueprints permet aux développeurs non-programmeurs de créer des mécaniques de jeu et des comportements sans écrire de code."
+            },
+            {
+                "nom": "Communauté active",
+                "description": "L’Unreal Engine a une communauté active tous comme Unity et bien établie, avec de nombreux ressources et tutoriels disponibles pour aider les développeurs à apprendre et à se développer."
+            }
+        ],
+        "desavantages": [
+            {
+                "nom": "Le prix",
+                "description": "Unity coûte assez chère avec la nouvelle formule qu'ils ont mis en place."
+            },
+            {
+                "nom": "Problème de RAM",
+                "description": "Unity à tandance a consomme plus ram pour les jeux."
+            }
+        ],
+        "jeux": [
+            {
+                "nom": "Ori and the Blind Forest",
+                "description": ""
+            },
+            {
+                "auteur": "The Forest",
+                "description": ""
+            }
+        ],
+        "versions": [
+            {
+                "nom": "Unreal Engine 1"
+            },
+            {
+                "nom": "Unreal Engine 2"
+            },
+            {
+                "nom": "Unreal Engine 2.X"
+            },
+            {
+                "nom": "Unreal Engine 3"
+            },
+            {
+                "nom": "Unreal Engine 4"
+            },
+            {
+                "nom": "Unreal Engine 5"
+            }
+        ]
+    },
+
+    {
+        "nom": "",
+        "entrprise": "",
+        "tarifs": "",
+        "opensource": false,
+        "description": "",
+        "langageDeProg": "",
+        "avantages": [
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            }
+        ],
+        "desavantages": [
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            }
+        ],
+        "jeux": [
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "auteur": "",
+                "description": ""
+            }
+        ],
+        "versions": [
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            },
+            {
+                "nom": "",
+                "description": ""
+            }
+        ]
+    }
+]
