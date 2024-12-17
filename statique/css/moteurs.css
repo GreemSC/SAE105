@@ -82,7 +82,7 @@ article.moteur {
     height: 200px;
     border-radius: 15px;
     background-color: #181D27;
-    margin: 15px;
+    margin: 15px auto;
     color: #fff;
     position: relative;
 }
@@ -131,13 +131,14 @@ div.windows {
 div.windows:target {
     opacity: 1;
     pointer-events: auto;
+    overflow: auto;
 }
 
 div.windows > div {
     width: 700px;
     font-family: sans-serif;
     position: relative;
-    margin: 0 auto;
+    margin: 25px auto;
     padding: 5px 20px 15px 20px;
     border-radius: 8px;
     background: #181D27;
@@ -160,4 +161,79 @@ a.close {
 
 a.close:hover {
     color: #63D2FF
+}
+
+.windows h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.blocks {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    width: 660px;
+    margin: auto;
+}
+
+.block {
+    width: 300px;
+    height: 175px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+.block p, h4{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.block h4 {
+    font-size:  1.25em;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.smallBlocks {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    width: 660px;
+    margin: auto;
+}
+
+.smallBlock {
+    width: 200px;
+    height: 125px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+.smallBlock p , .smallBlock h4{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.smallBlock h4 {
+    font-size:  1.1em;
 }
