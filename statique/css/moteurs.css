@@ -236,4 +236,53 @@ h3 {
 
 .smallBlock h4 {
     font-size:  1.1em;
+    margin-bottom: 10px;
+}
+
+.smallBlock img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+
+.smallBlock figure {
+    margin: 0;
+}
+
+#avantages::before {
+    background-image: url('../medias/interface/plus-solid.svg');
+    background-size: 25px 20px;
+    display: inline-block;
+    width: 25px; 
+    height: 20px;
+    content:"";
+
+}
+
+#desavantages::before {
+    background-image: url('../medias/interface/minus-solid.svg');
+    background-size: 28px 20px;
+    display: inline-block;
+    width: 28px; 
+    height: 20px;
+    content:"";
+}
+
+#jeux::before {
+    background-image: url('../medias/interface/gamepad-solid.svg');
+    background-size: 40px 20px;
+    display: inline-block;
+    width: 40px; 
+    height: 20px;
+    content:"";
+}
+
+#versions::before {
+    background-image: url('../medias/interface/circle-up-solid.svg');
+    background-size: 32px 20px;
+    display: inline-block;
+    width: 32px; 
+    height: 20px;
+    content:"";
 }
