@@ -82,8 +82,9 @@ article.moteur {
     height: 200px;
     border-radius: 15px;
     background-color: #181D27;
-    margin: 15px;
+    margin: 15px auto;
     color: #fff;
+    position: relative;
 }
 
 article.moteur h2 {
@@ -97,9 +98,191 @@ article.moteur p {
     padding: 0px 20px;
 }
 
-article.moteur img {
-    width: 30px;
-    height: 30px;
-    display: block;
+article.moteur p.bottomtext{
+    position: absolute;
+    margin-left: auto;
+    padding: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+article.moteur a {
+    text-decoration: none;
+    color: #fff;
+}
+
+article.moteur a:hover {
+    color: #63D2FF;
+}
+
+div.windows {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+div.windows:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow: auto;
+}
+
+div.windows > div {
+    width: 700px;
+    font-family: sans-serif;
+    position: relative;
+    margin: 25px auto;
+    padding: 5px 20px 15px 20px;
+    border-radius: 8px;
+    background: #181D27;
+    color: #fff;
+}
+
+a.close {
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: 14px;
+    text-align: center;
+    top: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+a.close:hover {
+    color: #63D2FF
+}
+
+.windows h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.blocks {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    width: 660px;
     margin: auto;
+}
+
+.block {
+    width: 300px;
+    height: 175px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+.block p, h4{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.block h4 {
+    font-size:  1.25em;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.smallBlocks {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    width: 660px;
+    margin: auto;
+}
+
+.smallBlock {
+    width: 200px;
+    height: 125px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+.smallBlock p , .smallBlock h4{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.smallBlock h4 {
+    font-size:  1.1em;
+    margin-bottom: 10px;
+}
+
+.smallBlock img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+
+.smallBlock figure {
+    margin: 0;
+}
+
+#avantages::before {
+    background-image: url('../medias/interface/plus-solid.svg');
+    background-size: 25px 20px;
+    display: inline-block;
+    width: 25px; 
+    height: 20px;
+    content:"";
+
+}
+
+#desavantages::before {
+    background-image: url('../medias/interface/minus-solid.svg');
+    background-size: 28px 20px;
+    display: inline-block;
+    width: 28px; 
+    height: 20px;
+    content:"";
+}
+
+#jeux::before {
+    background-image: url('../medias/interface/gamepad-solid.svg');
+    background-size: 40px 20px;
+    display: inline-block;
+    width: 40px; 
+    height: 20px;
+    content:"";
+}
+
+#versions::before {
+    background-image: url('../medias/interface/circle-up-solid.svg');
+    background-size: 32px 20px;
+    display: inline-block;
+    width: 32px; 
+    height: 20px;
+    content:"";
 }
