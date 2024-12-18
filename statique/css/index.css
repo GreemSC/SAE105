@@ -94,68 +94,30 @@ div.ligne{
     width: 500px;
 }
 
-
-
-:root {
+:root{
     --largImage : 460px ;
-    --nbImages : 5 ;
-    --duree : 6s ;
+    --nbImages : 7 ;
 }
-
-
-.sliderView {
-    /* Calcul de la largeur de la vue (1 fois la largeur de l'image) */
-    width: var(--largImage);
-    /* Tout ce qui dépasse cette vue n'est pas visible donc on ne verra qu'une seule image à la fois */
-    overflow: hidden;
-    margin: 15px auto;
-}
-
-.sliderPan {
-    /* Pour que les slides se mettent un à coté de l'autre dans le sliderPan */
-    display: flex;  
-    /* Calcul de la largeur de ce "PAN" : nbre d'images x largeur d'images */
-    width: calc(var(--largImage)*var(--nbImages));
-    /* on associé l'animation créée "deplacement" pour décaler petit à petit les images dans le sliderPan */
-    animation: deplacement calc(var(--nbImages)*var(--duree)) infinite ease-in-out;
-}
-
-/* L'animation suivante n'est pas top car ne s'adapte pas automatiquement au nombre d'images :( */
 
 @keyframes deplacement {
     0% {
-        transform: translate(0);
-    }
-    20% {
-        /* On décale le dliderPan dans la vue (sliderVue) vers la gauche (nombre négatif) d'une fois la largeur d'une image */
-        transform: translate(calc(-1 * var(--largImage)));
-    }
-    40% {
-        /* De 2 fois... */
-        transform: translate(calc(-2 * var(--largImage)));
-    }
-    60% {
-        /* De 3 fois comme ça on a vu les 4 images */
-        transform: translate(calc(-3 * var(--largImage)));
-    }
-    80% {
-        /* De 3 fois comme ça on a vu les 4 images */
-        transform: translate(calc(-4 * var(--largImage)));
-    }
+        transform: translateX(0);
+   }
     100% {
-        /* Puis on revient à l'image initiale */
-        transform: translate(0);
-    }
+        transform: translateX(calc(-1 * var(--largImage) * var(--nbImages)));
+   }
 }
 
+
+div.sliderView div.sliderPan{
+    animation: deplacement 20s linear infinite;
+    display: flex;
+    width: calc(var(--largImage) * 2 * var(--nbImages));
+}
 
 figure.slide {
-    position : relative ;
-    margin: 0px;
-}
-
-figure.slide img {
-    vertical-align: bottom ;
+    margin: 20px 0 0 0;
+    position: relative;
 }
 
 figure.slide figcaption {
@@ -176,6 +138,7 @@ figure.slide figcaption {
 figure.slide:hover figcaption{
     color: #63D2FF;
 }
+
 
 footer {
     width: 100%;
