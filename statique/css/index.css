@@ -94,10 +94,6 @@ div.ligne{
     width: 500px;
 }
 
-h2.carrousel {
-    margin: 50px 0 10px 20px;
-}
-
 :root{
     --largImage : 460px ;
     --nbImages : 7 ;
@@ -116,6 +112,7 @@ div.sliderView {
     width: 1200px;
     border-radius: 20px;
     margin: auto;
+    margin-top: 50px;
     overflow: hidden;    
 }
  
@@ -151,18 +148,32 @@ figure.slide:hover figcaption{
 
 
 footer {
-    width: 100%;
-
     line-height: 2rem;
     text-align: center;
     color: #fff;
 
     background-color: #181D27;
+    margin: 50px 15px 20px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div {
+    margin: auto;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+
 }
 
 footer ul {
-    margin: 0px;
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+
 }
 
 footer a {
@@ -172,4 +183,8 @@ footer a {
 
 footer li:hover a {
     color: #63D2FF;
+}
+
+#copyright {
+    text-align: center;
 }
