@@ -94,6 +94,10 @@ div.ligne{
     width: 500px;
 }
 
+h2.carrousel {
+    margin: 50px 0 10px 20px;
+}
+
 :root{
     --largImage : 460px ;
     --nbImages : 7 ;
@@ -108,15 +112,21 @@ div.ligne{
    }
 }
 
-
+div.sliderView {
+    width: 1200px;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;    
+}
+ 
 div.sliderView div.sliderPan{
-    animation: deplacement 20s linear infinite;
+    animation: deplacement 50s linear infinite;
     display: flex;
     width: calc(var(--largImage) * 2 * var(--nbImages));
 }
 
 figure.slide {
-    margin: 20px 0 0 0;
+    margin: 0px;
     position: relative;
 }
 
