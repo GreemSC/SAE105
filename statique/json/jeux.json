@@ -12,15 +12,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "18"
+                "noteSite": "18/20"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Évaluations extrêmement positives"
+                "noteSite": "Extrêmement positives"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "90"
+                "noteSite": "90/100"
             }
         ],
         "tag": [
@@ -78,15 +78,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "15"
+                "noteSite": "15/20"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Évaluations très positives"
+                "noteSite": "Très positives"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "78"
+                "noteSite": "78/100"
             }
         ],
         "tag": [
@@ -150,11 +150,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "15.5"
+                "noteSite": "15.5/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "81"
+                "noteSite": "81/100"
             },
             {
                 "nomSite": "epic",
@@ -218,11 +218,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "17"
+                "noteSite": "17/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "94"
+                "noteSite": "94/100"
             },
             {
                 "nomSite": "ign",
@@ -285,11 +285,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "16"
+                "noteSite": "16/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "75"
+                "noteSite": "75/100"
             },
             {
                 "nomSite": "steam",
@@ -338,15 +338,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "15"
+                "noteSite": "15/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "76"
+                "noteSite": "76/100"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Évaluations très positives"
+                "noteSite": "Très positives"
             }
         ],
         "tag": [
@@ -384,11 +384,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "18"
+                "noteSite": "18/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "91"
+                "noteSite": "91/100"
             },
             {
                 "nomSite": "ign",
@@ -438,11 +438,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "16.5"
+                "noteSite": "16.5/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "81"
+                "noteSite": "81/100"
             },
             {
                 "nomSite": "steam",
@@ -496,15 +496,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "17"
+                "noteSite": "17/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "81"
+                "noteSite": "81/100"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Évaluations très positives"
+                "noteSite": "Très positives"
             }
         ],
         "tag": [
@@ -544,11 +544,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "16"
+                "noteSite": "16/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "78"
+                "noteSite": "78/100"
             },
             {
                 "nomSite": "steam",
@@ -627,11 +627,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "18"
+                "noteSite": "18/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "80"
+                "noteSite": "80/100"
             },
             {
                 "nomSite": "steam",
@@ -674,11 +674,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "19"
+                "noteSite": "19/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "97"
+                "noteSite": "97/100"
             },
             {
                 "nomSite": "ign",
@@ -722,11 +722,11 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "19.5"
+                "noteSite": "19.5/20"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "95"
+                "noteSite": "95/100"
             },
             {
                 "nomSite": "ign",
@@ -773,15 +773,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "19"
+                "noteSite": "19/20"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Exceptionnelles"
+                "noteSite": "Extrêmement positives"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "93"
+                "noteSite": "93/100"
             }
         ],
         "tag": [
@@ -854,7 +854,7 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "17"
+                "noteSite": "17/20"
             },
             {
                 "nomSite": "steam",
@@ -862,7 +862,7 @@
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "84"
+                "noteSite": "84/100"
             }
         ],
         "tag": [
@@ -929,15 +929,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "14"
+                "noteSite": "14/20"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Mitigées"
+                "noteSite": "Plutôt positives"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "58"
+                "noteSite": "58/100"
             }
         ],
         "tag": [
@@ -999,15 +999,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "16.5"
+                "noteSite": "16.5/20"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Plutôt positives"
+                "noteSite": "Extrêmement positives"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "86"
+                "noteSite": "86/100"
             }
         ],
         "tag": [
@@ -1075,7 +1075,7 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "15"
+                "noteSite": "15/20"
             },
             {
                 "nomSite": "steam",
@@ -1083,7 +1083,7 @@
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "81"
+                "noteSite": "81/100"
             }
         ],
         "tag": [
@@ -1131,7 +1131,7 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "13"
+                "noteSite": "13/20"
             },
             {
                 "nomSite": "steam",
@@ -1139,7 +1139,7 @@
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "75"
+                "noteSite": "75/100"
             }
         ],
         "tag": [
@@ -1188,15 +1188,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "18"
+                "noteSite": "18/20"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Exceptionnelles"
+                "noteSite": "Extrêmement positives"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "92"
+                "noteSite": "92/100"
             }
         ],
         "tag": [
@@ -1245,15 +1245,15 @@
         "avisUtilisateur": [
             {
                 "nomSite": "jvc",
-                "noteSite": "17"
+                "noteSite": "17/20"
             },
             {
                 "nomSite": "steam",
-                "noteSite": "Globalement positives"
+                "noteSite": "Très positives"
             },
             {
                 "nomSite": "metacritic",
-                "noteSite": "85"
+                "noteSite": "85/100"
             }
         ],
         "tag": [

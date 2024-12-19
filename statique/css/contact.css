@@ -57,3 +57,32 @@ nav#navigation a {
 nav#navigation li:hover a {
     color : #63D2FF;
 }
+
+div#contact{
+    background-color: #181D27;
+    margin: auto;
+    width: 800px;
+    height: 470px;
+}
+
+#identite input{
+    margin: 20px 20px;
+    width: 350px;
+    height: 50px;
+}
+
+#mail input, #objet input{
+    margin: 30px 20px 0 20px;
+    width: 750px;
+    height: 50px;
+}
+
+#message textarea{
+    margin: 30px 20px 0 20px;
+    width: 750px;
+    height: 100px;
+}
+
+p#transmettre{
+    margin: 20px 350px;
+}
