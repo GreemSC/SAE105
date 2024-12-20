@@ -66,6 +66,7 @@ nav#navigation li:hover a {
 
 #presentation {
     margin: auto;
+    margin-top: 50px;
     width: 1000px;
     border-radius: 20px;
 
@@ -76,22 +77,29 @@ nav#navigation li:hover a {
 div.ligne{
     display: flex;  
     flex-direction: row ; /* Aligne les éléments enfants horizontalement */
-    align-items:center ; /* Centre verticalement dans le conteneur. */
+    align-items: center ; /* Centre verticalement dans le conteneur. */
+    justify-content: center;
 }
 
-
+#presentation figure {
+    margin-left: 0;
+    margin-bottom: 60px;
+}
 
 #presentation img{
-   width: 200px;
+   width: 300px;
 }
 
 #presentation h2 {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 #presentation p{
     width: 500px;
+    font-size: 1.15em;
+    text-align: justify;
+    margin-bottom: 40px;
 }
 
 :root{

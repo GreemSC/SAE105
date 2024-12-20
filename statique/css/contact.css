@@ -5,6 +5,11 @@ body {
     font-weight: 400;
 }
 
+#wrap {
+    width: 1280px;
+    margin: auto;
+}
+
 h1.construction {
     width: 300px;
     margin: 100px auto;
