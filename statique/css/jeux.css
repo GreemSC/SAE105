@@ -1,8 +1,13 @@
 body {
     margin: 0px;
-    background-color: #aaaaaa;
     font-family: "narkiss-yair-variable", sans-serif;
     font-weight: 400;
+    background-color: #aaaaaa;
+}
+
+#wrap {
+    width: 1280px;
+    margin: auto;
 }
 
 h1.construction {
@@ -13,11 +18,11 @@ h1.construction {
 nav#navigation {
     background-color: #181D27;
     font-size: 1.25em;
-    
+
     /* Les 2 enfants UL seront positionnés en flex, premier "à gauche", le second "à droite" */
-    display : flex ;
-    justify-content : space-between ;
-    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     line-height: 60px;
 
@@ -28,20 +33,20 @@ nav#navigation {
 }
 
 nav#navigation ul {
-    margin : 0px;
-    padding : 0px;
+    margin: 0px;
+    padding: 0px;
 
-    list-style-type: none ;
+    list-style-type: none;
 
     /* Encore du flex pour les li de chaque ul */
-    
+
     display: flex;
     flex-wrap: wrap;
 }
 
 nav#navigation li {
-    padding-left : 20px ;
-    padding-right : 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav#navigation ul.items {
@@ -50,10 +55,281 @@ nav#navigation ul.items {
 
 
 nav#navigation a {
-    text-decoration : none ;
-    color : #fff ;
+    text-decoration: none;
+    color: #fff;
 }
-        
+
 nav#navigation li:hover a {
-    color : #63D2FF;
+    color: #63D2FF;
+}
+
+section#jeux {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+article.jeux {
+    width: 1000px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #181D27;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+article.jeux h2 {
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+article.jeux p {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+article.jeux p.bottomtext{
+    position: absolute;
+    margin-left: auto;
+    padding: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+article.jeux a {
+    text-decoration: none;
+    color: #fff;
+}
+
+article.jeux a:hover {
+    color: #63D2FF;
+}
+
+div.ligne{
+    display: flex;  
+    flex-direction: row ; /* Aligne les éléments enfants horizontalement */
+    align-items:center ; /* Centre verticalement dans le conteneur. */
+}
+
+div.windows {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+div.windows:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow: auto;
+}
+
+div.windows > div {
+    width: 700px;
+    font-family: sans-serif;
+    position: relative;
+    margin: 25px auto;
+    padding: 5px 20px 15px 20px;
+    border-radius: 8px;
+    background: #181D27;
+    color: #fff;
+}
+
+a.close {
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: 14px;
+    text-align: center;
+    top: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+a.close:hover {
+    color: #63D2FF
+}
+
+.windows h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.blocks {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    width: 660px;
+    margin: auto;
+}
+
+.block {
+    width: 300px;
+    height: 175px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+.block p img {
+    width: 20px;
+    height: 20px;
+}
+
+.block p, h4{
+    text-align: center;
+}
+
+.block h4 {
+    font-size:  1.25em;
+}
+
+.block p {
+    margin: 10px auto;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.smallBlocks {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    width: 660px;
+    margin: auto;
+}
+
+.smallBlock {
+    width: 200px;
+    height: 125px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+.smallBlock p , .smallBlock h4{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.smallBlock h4 {
+    font-size:  1.1em;
+    margin-bottom: 10px;
+}
+
+.smallBlock img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+
+.smallBlock figure {
+    margin: 0;
+}
+
+.miniBlocks {
+    display: flex;
+
+    /* S'il reste de la place dans le parent, il est réparti entre les items enfants (les div bloc ici) */
+    justify-content: space-between;
+
+    /* les items enfants (les div bloc ici) peuvent passer à la ligne si ça manque de place sur la ligne en cours */
+    flex-wrap: wrap;
+
+    width: 660px;
+    margin: auto;
+}
+
+.miniBlock {
+    width: 150px;
+    height: 75px;
+    border-radius: 15px;
+    background-color: #000;
+    margin: 15px auto;
+    color: #fff;
+    position: relative;
+}
+
+.miniBlock p {
+    text-align: center;
+    margin: 30px auto;
+}
+
+footer {
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+
+    background-color: #181D27;
+    margin: 50px 15px 20px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div {
+    margin: auto;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li:hover a {
+    color: #63D2FF;
+}
+
+#copyright {
+    text-align: center;
 }
