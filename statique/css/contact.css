@@ -10,11 +10,6 @@ body {
     margin: auto;
 }
 
-h1.construction {
-    width: 300px;
-    margin: 100px auto;
-}
-
 nav#navigation {
     background-color: #181D27;
     font-size: 1.25em;
@@ -66,34 +61,45 @@ nav#navigation li:hover a {
 div#contact{
     background-color: #181D27;
     margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+
     width: 800px;
     height: 470px;
-}
-
-h1{
-    text-align: center;
+    border-radius: 20px;
 }
 
 #identite input{
     margin: 20px 18px;
+    padding-left: 10px;
     width: 350px;
     height: 50px;
+    border-radius: 10px;
+    border-style: none;
 }
 
 #mail input, #objet input{
     margin: 30px 20px 0 20px;
+    padding-left: 10px;
     width: 750px;
     height: 50px;
+    border-radius: 10px;
+    border-style: none;
 }
 
 #message textarea{
     margin: 30px 20px 0 20px;
-    width: 750px;
+    padding: 10px;
+    width: 740px;
     height: 100px;
+    border-radius: 10px;
+    border-style: none;
+    resize: none;
 }
 
 p#transmettre{
     margin: 20px 350px;
+    border-radius: 10px;
 }
 
 footer {
@@ -122,7 +128,6 @@ footer ul {
     list-style-type: none;
     padding-left: 0;
     margin-top: 10px;
-
 }
 
 footer a {
