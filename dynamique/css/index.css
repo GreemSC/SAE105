@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+    padding-bottom: 0px;
+    background-color: #aaaaaa;
+    font-family: "narkiss-yair-variable", sans-serif;
+    font-weight: 400;
+}
+
+#wrap {
+    width: 1280px;
+    margin: auto;
+}
+
+h1.construction {
+    width: 300px;
+    margin: 100px auto;
+}
+
+nav#navigation {
+    background-color: #181D27;
+    font-size: 1.25em;
+
+    /* Les 2 enfants UL seront positionnés en flex, premier "à gauche", le second "à droite" */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 60px;
+
+    align-items: stretch;
+
+    margin: 15px 20px;
+    border-radius: 20px;
+}
+
+nav#navigation ul {
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+
+    /* Encore du flex pour les li de chaque ul */
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav#navigation li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav#navigation ul.items {
+    margin: auto;
+}
+
+
+nav#navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav#navigation li:hover a {
+    color: #63D2FF;
+}
+
+#presentation {
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    border-radius: 20px;
+
+    background-color: #181D27;
+    color: #fff;
+}
+
+div.ligne{
+    display: flex;  
+    flex-direction: row ; /* Aligne les éléments enfants horizontalement */
+    align-items: center ; /* Centre verticalement dans le conteneur. */
+    justify-content: center;
+}
+
+#presentation figure {
+    margin-left: 0;
+    margin-bottom: 60px;
+}
+
+#presentation img{
+   width: 300px;
+}
+
+#presentation h2 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#presentation p{
+    width: 500px;
+    font-size: 1.15em;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+:root{
+    --largImage : 460px ;
+    --nbImages : 7 ;
+}
+
+@keyframes deplacement {
+    0% {
+        transform: translateX(0);
+   }
+    100% {
+        transform: translateX(calc(-1 * var(--largImage) * var(--nbImages)));
+   }
+}
+
+div.sliderView {
+    width: 1200px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;    
+}
+ 
+div.sliderView div.sliderPan{
+    animation: deplacement 50s linear infinite;
+    display: flex;
+    width: calc(var(--largImage) * 2 * var(--nbImages));
+}
+
+figure.slide {
+    margin: 0px;
+    position: relative;
+}
+
+figure.slide figcaption {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    padding : 14px;
+    background-color: #000;
+    opacity: 0.8;
+
+    width: 100% ;
+    position : absolute ;
+    bottom : 0px ;
+    left: 0px ;
+}
+
+figure.slide:hover figcaption{
+    color: #63D2FF;
+}
+
+
+footer {
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+
+    background-color: #181D27;
+    margin: 50px 15px 20px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div {
+    margin: auto;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li:hover a {
+    color: #63D2FF;
+}
+
+#copyright {
+    text-align: center;
+}
