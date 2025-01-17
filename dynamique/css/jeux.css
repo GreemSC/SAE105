@@ -10,11 +10,6 @@ body {
     margin: auto;
 }
 
-h1.construction {
-    width: 300px;
-    margin: 100px auto;
-}
-
 nav#navigation {
     background-color: #181D27;
     font-size: 1.25em;
@@ -79,8 +74,8 @@ section#jeux {
 
 article.jeux {
     width: 1000px;
-    height: 350px;
-    border-radius: 15px;
+    height: 365px;
+    border-radius: 20px;
     background-color: #181D27;
     margin: 15px auto;
     color: #fff;
@@ -93,6 +88,10 @@ article.jeux h2 {
     text-align: center;
 }
 
+article.jeux img {
+    border-radius: 10px;
+}
+
 article.jeux p {
     text-align: center;
     padding: 0px 20px;
@@ -100,7 +99,9 @@ article.jeux p {
 
 article.jeux div.ligne p {
     text-align: justify;
-    padding: 0px 20px;
+    padding: 0px, 20px;
+    padding-right: 60px;
+    font-size: 1.2em;
 }
 
 article.jeux p.bottomtext{
@@ -198,6 +199,7 @@ a.close:hover {
     border-radius: 15px;
     background-color: #000;
     margin: 15px auto;
+    padding-bottom: 20px;
     color: #fff;
     position: relative;
 }

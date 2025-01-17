@@ -1319,6 +1319,12 @@ var affichage = "";
 const madiv = document.querySelector('#jeux');
 
 for(var i=0 ; i<datas.length ; i++){
+    var pointerID = datas[i].nomJeu
+    
+    if(pointerID) {
+        pointerID = (pointerID.replace(/\s+/g, '')).toLowerCase();
+    }
+    
     affichage += `
             <article class="jeux">
                 <h2>${datas[i].nomJeu}</h2>
@@ -1328,9 +1334,9 @@ for(var i=0 ; i<datas.length ; i++){
                     </figure>
                     <p>${datas[i].description}</p>
                 </div>
-                <p class="bottomtext"><a href="#${datas[i].nomJeu}Window">Plus d'information</a></p>
+                <p class="bottomtext"><a href="#${pointerID}Window">Plus d'information</a></p>
             </article>
-            <div id="${datas[i].nomJeu}Window" class="windows">
+            <div id="${pointerID}Window" class="windows">
                     <div>
                         <a href="#close" title="Fermer" class="close">x</a>
 
