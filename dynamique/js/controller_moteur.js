@@ -1,5 +1,5 @@
-const moteurs = 
-`[
+const moteurs =
+    `[
     {
         "nom": "Unity",
         "entreprise": "Unity Technologies",
@@ -613,10 +613,10 @@ const madiv = document.querySelector("#moteurs");
 var affichage = "";
 
 for (var i = 0; i < datas.length; i++) {
-    
+
     var openSourceImagePath = "";
     var openSourceTextAlt = "";
-    if(datas[i].openSource == true) {
+    if (datas[i].openSource == true) {
         openSourceImagePath = "../medias/interface/check-solid.svg";
         openSourceTextAlt = "Vrai";
     }
@@ -624,13 +624,13 @@ for (var i = 0; i < datas.length; i++) {
         openSourceImagePath = "../medias/interface/xmark-solid.svg";
         openSourceTextAlt = "Faux";
     }
-    
-    affichage += 
-    `
+
+    affichage +=
+        `
     <article class="moteur">
         <h2>${datas[i].nom}</h2>
         <p>${datas[i].description}</p>
-        <p class="bottomtext"><a href="#${(datas[i].nom).toLowerCase()}Window">Plus d'information</a></p>
+        <p class="bottomtext"><a href="#${(datas[i].nom).toLowerCase()}Window">Plus d'informations</a></p>
     </article>
     <div id="${(datas[i].nom).toLowerCase()}Window" class="windows">
         <div>
@@ -669,9 +669,9 @@ for (var i = 0; i < datas.length; i++) {
     `;
 
     for (var j = 0; j < datas[i].avantages.length; j++) {
-        
-        affichage += 
-        `
+
+        affichage +=
+            `
                     <div class="block">
                         <h4>${datas[i].avantages[j].nom}</h4>
                         <p>${datas[i].avantages[j].description}</p>
@@ -679,16 +679,16 @@ for (var i = 0; i < datas.length; i++) {
         `;
     }
 
-    affichage += 
-    `
+    affichage +=
+        `
             </div>
             <h3 id="desavantages">Désavantages :</h3>
             <div class="blocks">
     `;
     for (var j = 0; j < datas[i].desavantages.length; j++) {
-        
-        affichage += 
-        `
+
+        affichage +=
+            `
                     <div class="block">
                         <h4>${datas[i].desavantages[j].nom}</h4>
                         <p>${datas[i].desavantages[j].description}</p>
@@ -696,16 +696,16 @@ for (var i = 0; i < datas.length; i++) {
         `;
     }
 
-    affichage += 
-    `
+    affichage +=
+        `
             </div>
             <h3 id="jeux">Les Jeux :</h3>
             <div class="blocks">
     `;
     for (var j = 0; j < datas[i].jeux.length; j++) {
-        
-        affichage += 
-        `
+
+        affichage +=
+            `
                     <div class="block">
                         <h4>${datas[i].jeux[j].nom}</h4>
                         <p>${datas[i].jeux[j].description}</p>
@@ -713,24 +713,24 @@ for (var i = 0; i < datas.length; i++) {
         `;
     }
 
-    affichage += 
-    `
+    affichage +=
+        `
             </div>
             <h3 id="jeux">Les Versions :</h3>
             <div class="blocks">
     `;
     for (var j = 0; j < datas[i].versions.length; j++) {
-        
-        affichage += 
-        `
+
+        affichage +=
+            `
                     <div class="block">
                         <h4>${datas[i].versions[j].nom}</h4>
                         <p>${datas[i].versions[j].description}</p>
                     </div>
         `;
     }
-    affichage += 
-    `
+    affichage +=
+        `
             </div>
         </div>
     </div>

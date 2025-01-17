@@ -1,6 +1,6 @@
-const jeux =`[
+const jeux = `[
     {
-        "imageJeu": "../medias/contenu/HollowKnight/HollowKnight.jpg",
+        "imageJeu": "../medias/contenu/HollowKnight/HollowKnight.webp",
         "nomJeu": "Hollow Knight",
         "moteur": "Unity",
         "prix": 14.99,
@@ -63,7 +63,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/AmongUs/AmongUs.jpg",
+        "imageJeu": "../medias/contenu/AmongUs/AmongUs.webp",
         "nomJeu": "Among Us",
         "moteur": "Unity",
         "prix": 4.99,
@@ -136,7 +136,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/Fortnite/Fortnite.jpg",
+        "imageJeu": "../medias/contenu/Fortnite/Fortnite.webp",
         "nomJeu": "Fortnite",
         "moteur": "Unreal Engine",
         "prix": 0,
@@ -209,7 +209,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/GearsOfWar/GearsOfWar.jpg",
+        "imageJeu": "../medias/contenu/GearsOfWar/GearsOfWar.webp",
         "nomJeu": "Gears of War",
         "moteur": "Unreal Engine",
         "prix": 29.99,
@@ -278,7 +278,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/Deponia/Deponia.jpg",
+        "imageJeu": "../medias/contenu/Deponia/Deponia.webp",
         "nomJeu": "Deponia",
         "moteur": "Godot",
         "prix": 14.99,
@@ -333,7 +333,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/CrueltySquad/CrueltySquad.jpg",
+        "imageJeu": "../medias/contenu/CrueltySquad/CrueltySquad.webp",
         "nomJeu": "Cruelty Squad",
         "moteur": "Godot",
         "prix": 19.99,
@@ -376,7 +376,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/Crysis/Crysis.jpg",
+        "imageJeu": "../medias/contenu/Crysis/Crysis.webp",
         "nomJeu": "Crysis",
         "moteur": "CryEngine",
         "prix": 29.99,
@@ -434,7 +434,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/HuntShowdown/HuntShowdown.jpg",
+        "imageJeu": "../medias/contenu/HuntShowdown/HuntShowdown.webp",
         "nomJeu": "Hunt: Showdown",
         "moteur": "CryEngine",
         "prix": 39.99,
@@ -490,7 +490,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/ToTheMoon/ToTheMoon.jpg",
+        "imageJeu": "../medias/contenu/ToTheMoon/ToTheMoon.webp",
         "nomJeu": "To the Moon",
         "moteur": "RPG Maker",
         "prix": 9.99,
@@ -542,7 +542,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/LisaTP/LisaTP.jpg",
+        "imageJeu": "../medias/contenu/LisaTP/LisaTP.webp",
         "nomJeu": "LISA: The Painful",
         "moteur": "RPG Maker",
         "prix": 19.99,
@@ -585,7 +585,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/Mari0/Mari0.png",
+        "imageJeu": "../medias/contenu/Mari0/Mari0.webp",
         "nomJeu": "Mari0",
         "moteur": "Love2D",
         "prix": 0.00,
@@ -624,7 +624,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/RiskOfRain/RiskOfRain.jpg",
+        "imageJeu": "../medias/contenu/RiskOfRain/RiskOfRain.webp",
         "nomJeu": "Risk of Rain",
         "moteur": "Love2D",
         "prix": 9.99,
@@ -671,7 +671,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/GrandTheftAuto/GrandTheftAuto.jpg",
+        "imageJeu": "../medias/contenu/GrandTheftAuto/GrandTheftAuto.webp",
         "nomJeu": "Grand Theft Auto V",
         "moteur": "RAGE",
         "prix": 29.99,
@@ -724,7 +724,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/RedDeadRedemption/RedDeadRedemption.jpg",
+        "imageJeu": "../medias/contenu/RedDeadRedemption/RedDeadRedemption.webp",
         "nomJeu": "Red Dead Redemption 2",
         "moteur": "RAGE",
         "prix": 59.99,
@@ -773,7 +773,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/TheWitcher/TheWitcher.jpg",
+        "imageJeu": "../medias/contenu/TheWitcher/TheWitcher.webp",
         "nomJeu": "The Witcher 3: Wild Hunt",
         "moteur": "REDengine 3",
         "prix": 39.99,
@@ -856,7 +856,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/AssassinsCreed/AssassinsCreed.jpg",
+        "imageJeu": "../medias/contenu/AssassinsCreed/AssassinsCreed.webp",
         "nomJeu": "Assassin's Creed Valhalla",
         "moteur": "AnvilNext 2.0",
         "prix": 59.99,
@@ -932,7 +932,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/GhostReconBreakpoint/GhostReconBreakpoint.jpg",
+        "imageJeu": "../medias/contenu/GhostReconBreakpoint/GhostReconBreakpoint.webp",
         "nomJeu": "Ghost Recon Breakpoint",
         "moteur": "AnvilNext 2.0",
         "prix": 49.99,
@@ -1002,7 +1002,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/Cyberpunk/Cyberpunk.jpg",
+        "imageJeu": "../medias/contenu/Cyberpunk/Cyberpunk.webp",
         "nomJeu": "Cyberpunk 2077",
         "moteur": "REDengine 4",
         "prix": 59.99,
@@ -1079,7 +1079,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/TheNextPenelope/TheNextPenelope.jpg",
+        "imageJeu": "../medias/contenu/TheNextPenelope/TheNextPenelope.webp",
         "nomJeu": "The Next Penelope",
         "moteur": "Construct 3",
         "prix": 14.99,
@@ -1138,7 +1138,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/Cosmochoria/Cosmochoria.jpg",
+        "imageJeu": "../medias/contenu/Cosmochoria/Cosmochoria.webp",
         "nomJeu": "Cosmochoria",
         "moteur": "Construct 3",
         "prix": 9.99,
@@ -1195,7 +1195,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/Undertale/Undertale.jpg",
+        "imageJeu": "../medias/contenu/Undertale/Undertale.webp",
         "nomJeu": "Undertale",
         "moteur": "GameMaker Studio",
         "prix": 9.99,
@@ -1253,7 +1253,7 @@ const jeux =`[
         ]
     },
     {
-        "imageJeu": "../medias/contenu/HyperLightDrifter/HyperLightDrifter.jpg",
+        "imageJeu": "../medias/contenu/HyperLightDrifter/HyperLightDrifter.webp",
         "nomJeu": "Hyper Light Drifter",
         "moteur": "GameMaker Studio",
         "prix": 19.99,
@@ -1318,13 +1318,13 @@ var affichage = "";
 
 const madiv = document.querySelector('#jeux');
 
-for(var i=0 ; i<datas.length ; i++){
+for (var i = 0; i < datas.length; i++) {
     var pointerID = datas[i].nomJeu
-    
-    if(pointerID) {
+
+    if (pointerID) {
         pointerID = (pointerID.replace(/\s+/g, '')).toLowerCase();
     }
-    
+
     affichage += `
             <article class="jeux">
                 <h2>${datas[i].nomJeu}</h2>
@@ -1334,7 +1334,7 @@ for(var i=0 ; i<datas.length ; i++){
                     </figure>
                     <p>${datas[i].description}</p>
                 </div>
-                <p class="bottomtext"><a href="#${pointerID}Window">Plus d'information</a></p>
+                <p class="bottomtext"><a href="#${pointerID}Window">Plus d'informations</a></p>
             </article>
             <div id="${pointerID}Window" class="windows">
                     <div>
@@ -1369,27 +1369,27 @@ for(var i=0 ; i<datas.length ; i++){
                         <h3>Plateformes :</h3>
                         <div class="miniBlocks"> `;
 
-        for (var j=0 ; j<datas[i].plateforme.length ; j++) {
-            affichage += `
+    for (var j = 0; j < datas[i].plateforme.length; j++) {
+        affichage += `
                                 <div class="miniBlock">
                                     <p>${datas[i].plateforme[j]}</p>
                                 </div>
-            `;       
-        }
+            `;
+    }
 
     affichage += `
                         </div>
                         <h3>Avis Utilisateur :</h3>
                         <div class="smallBlocks"> `;
 
-        for (var j=0 ; j<datas[i].avisUtilisateur.length ; j++) {
-            affichage += `
+    for (var j = 0; j < datas[i].avisUtilisateur.length; j++) {
+        affichage += `
                                 <div class="smallBlock">
                                     <h4>${datas[i].avisUtilisateur[j].nomSite}</h4>
                                     <p>${datas[i].avisUtilisateur[j].noteSite}</p>
                                 </div>
             `;
-        }
+    }
 
     affichage += `
                         </div>
@@ -1397,13 +1397,13 @@ for(var i=0 ; i<datas.length ; i++){
                         <h3>Tag :</h3>
                         <div class="miniBlocks"> `;
 
-        for (var j=0 ; j<datas[i].tag.length ; j++) {
-            affichage += `
+    for (var j = 0; j < datas[i].tag.length; j++) {
+        affichage += `
                             <div class="miniBlock">
                                 <p>${datas[i].tag[j]}</p>
                             </div>
             `;
-        }
+    }
 
     affichage += `
                         </div>
@@ -1411,42 +1411,42 @@ for(var i=0 ; i<datas.length ; i++){
                         <h3>Langue Disponible :</h3>
                         <div class="blocks"> `;
 
-        for (var j=0 ; j<datas[i].langue.length ; j++) {
+    for (var j = 0; j < datas[i].langue.length; j++) {
 
-            var interfaceLogoPath = "";
-            var interfaceAlt = "";
-        
-            if (datas[i].langue[j].interface == true) {
-                interfaceLogoPath = "../medias/interface/check-solid.svg"
-                interfaceAlt = "Vrai"
-            } else {
-                interfaceLogoPath = "../medias/interface/xmark-solid.svg"
-                interfaceAlt = "Faux"
-            }
-            
-            var audioLogoPath = "";
-            var audiofaceAlt = "";
-        
-            if (datas[i].langue[j].audio == true) {
-                audioLogoPath = "../medias/interface/check-solid.svg"
-                audioAlt = "Vrai"
-            } else {
-                audioLogoPath = "../medias/interface/xmark-solid.svg"
-                audioAlt = "Faux"
-            }
+        var interfaceLogoPath = "";
+        var interfaceAlt = "";
 
-            var soustitresLogoPath = "";
-            var soustitresAlt = "";
-        
-            if (datas[i].langue[j].soustitres == true) {
-                soustitresLogoPath = "../medias/interface/check-solid.svg"
-                soustitresAlt = "Vrai"
-            } else {
-                soustitresLogoPath = "../medias/interface/xmark-solid.svg"
-                soustitresAlt = "Faux"
-            }
+        if (datas[i].langue[j].interface == true) {
+            interfaceLogoPath = "../medias/interface/check-solid.svg"
+            interfaceAlt = "Vrai"
+        } else {
+            interfaceLogoPath = "../medias/interface/xmark-solid.svg"
+            interfaceAlt = "Faux"
+        }
 
-            affichage += `
+        var audioLogoPath = "";
+        var audiofaceAlt = "";
+
+        if (datas[i].langue[j].audio == true) {
+            audioLogoPath = "../medias/interface/check-solid.svg"
+            audioAlt = "Vrai"
+        } else {
+            audioLogoPath = "../medias/interface/xmark-solid.svg"
+            audioAlt = "Faux"
+        }
+
+        var soustitresLogoPath = "";
+        var soustitresAlt = "";
+
+        if (datas[i].langue[j].soustitres == true) {
+            soustitresLogoPath = "../medias/interface/check-solid.svg"
+            soustitresAlt = "Vrai"
+        } else {
+            soustitresLogoPath = "../medias/interface/xmark-solid.svg"
+            soustitresAlt = "Faux"
+        }
+
+        affichage += `
                             <div class="block">
                                 <h4>${datas[i].langue[j].nom}</h4>
                                 <p>Interface : <img src="${interfaceLogoPath}" alt="${interfaceAlt}"></p>
@@ -1454,7 +1454,7 @@ for(var i=0 ; i<datas.length ; i++){
                                 <p>Sous-titres : <img src="${soustitresLogoPath}" alt="${soustitresAlt}"></p>
                             </div>
             `;
-        }
+    }
 
     affichage += `                            
                         </div>
