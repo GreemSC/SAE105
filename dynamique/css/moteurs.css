@@ -73,6 +73,7 @@ section#moteurs {
     flex-wrap: wrap;
 
     padding: 20px;
+    padding-bottom: 0;
     width: 1000px;
     margin: auto;
 }
@@ -293,7 +294,7 @@ footer {
     color: #fff;
 
     background-color: #181D27;
-    margin: 50px 15px 20px 15px;
+    margin: 40px 15px 20px 15px;
     border-radius: 20px;
     display: flex;
     justify-content: space-evenly;

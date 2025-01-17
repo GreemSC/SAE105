@@ -11,11 +11,6 @@ body {
     margin: auto;
 }
 
-h1.construction {
-    width: 300px;
-    margin: 100px auto;
-}
-
 nav#navigation {
     background-color: #181D27;
     font-size: 1.25em;

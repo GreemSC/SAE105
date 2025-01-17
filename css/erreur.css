@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding-bottom: 0px;
+    background-color: #aaaaaa;
+    font-family: "narkiss-yair-variable", sans-serif;
+    font-weight: 400;
+}
+
+#wrap {
+    width: 1280px;
+    margin: auto;
+}
+
+#erreur {
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px 10px;
+    width: 500px;
+    border-radius: 20px;
+
+    background-color: #181D27;
+    color: #fff;
+}
+
+#erreur h1, p {
+    text-align: center;
+}
+
+#erreur h1 {
+font-size: 3em;
+margin-bottom: 25px;
+}
+
+#erreur p {
+    font-size: 1.3em;
+}
+
+#erreur a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#erreur a:hover{
+    color: #63D2FF;
+}
+
+#erreur p.bottomtext {
+    margin-top: 30px;
+    font-size: 1em;
+    text-decoration: underline;
+}

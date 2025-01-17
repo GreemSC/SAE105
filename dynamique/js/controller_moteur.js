@@ -630,9 +630,9 @@ for (var i = 0; i < datas.length; i++) {
     <article class="moteur">
         <h2>${datas[i].nom}</h2>
         <p>${datas[i].description}</p>
-        <p class="bottomtext"><a href="#${(datas[i].nom).toLowerCase()}Window">Plus d'informations</a></p>
+        <p class="bottomtext"><a href="#${((datas[i].nom).replace(/\s+/g, '')).toLowerCase()}Window">Plus d'informations</a></p>
     </article>
-    <div id="${(datas[i].nom).toLowerCase()}Window" class="windows">
+    <div id="${((datas[i].nom).replace(/\s+/g, '')).toLowerCase()}Window" class="windows">
         <div>
             <a href="#close" title="Fermer" class="close">x</a>
 
