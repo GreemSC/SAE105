@@ -98,6 +98,11 @@ article.jeux p {
     padding: 0px 20px;
 }
 
+article.jeux div.ligne p {
+    text-align: justify;
+    padding: 0px 20px;
+}
+
 article.jeux p.bottomtext{
     position: absolute;
     margin-left: auto;
