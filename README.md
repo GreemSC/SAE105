@@ -1,6 +1,6 @@
- ## Un petit blog concernant les moteurs de jeux vidéo ! 
+ ## Blog du chef ! 
 
-Ce site web à été fait pour un projet à l'IUT de Saint-Dié-des-Vosges durant la première Année de MMI.
+Un Goofy ahh site web qui à été fait pour un projet à l'IUT de Saint-Dié-des-Vosges durant la première Année de MMI.
 Il à été fait avec Guewen DEUTSCH.
 
 ## Contacts :
